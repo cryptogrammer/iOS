@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D6C09C5197A26600076DCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C4197A26600076DCC6 /* Foundation.framework */; };
+		1D6C09C7197A26600076DCC6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C6197A26600076DCC6 /* CoreGraphics.framework */; };
+		1D6C09C9197A26600076DCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C8197A26600076DCC6 /* UIKit.framework */; };
+		1D6C09CF197A26600076DCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6C09CD197A26600076DCC6 /* InfoPlist.strings */; };
+		1D6C09D1197A26600076DCC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09D0197A26600076DCC6 /* main.m */; };
+		1D6C09D5197A26600076DCC6 /* UTGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09D4197A26600076DCC6 /* UTGAppDelegate.m */; };
+		1D6C09D8197A26600076DCC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6C09D6197A26600076DCC6 /* Main.storyboard */; };
+		1D6C09DB197A26600076DCC6 /* UTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09DA197A26600076DCC6 /* UTGViewController.m */; };
+		1D6C09DD197A26600076DCC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6C09DC197A26600076DCC6 /* Images.xcassets */; };
+		1D6C09E4197A26600076DCC6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09E3197A26600076DCC6 /* XCTest.framework */; };
+		1D6C09E5197A26600076DCC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C4197A26600076DCC6 /* Foundation.framework */; };
+		1D6C09E6197A26600076DCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C8197A26600076DCC6 /* UIKit.framework */; };
+		1D6C09EE197A26600076DCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6C09EC197A26600076DCC6 /* InfoPlist.strings */; };
+		1D6C09F0197A26600076DCC6 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09EF197A26600076DCC6 /* Man_s_Best_FriendTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6C09E7197A26600076DCC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6C09B9197A26600076DCC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6C09C0197A26600076DCC6;
+			remoteInfo = "Man's Best Friend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D6C09C1197A26600076DCC6 /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6C09C4197A26600076DCC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6C09C6197A26600076DCC6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6C09C8197A26600076DCC6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D6C09CC197A26600076DCC6 /* Man's Best Friend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best Friend-Info.plist"; sourceTree = "<group>"; };
+		1D6C09CE197A26600076DCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6C09D0197A26600076DCC6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D6C09D2197A26600076DCC6 /* Man's Best Friend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Man's Best Friend-Prefix.pch"; sourceTree = "<group>"; };
+		1D6C09D3197A26600076DCC6 /* UTGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTGAppDelegate.h; sourceTree = "<group>"; };
+		1D6C09D4197A26600076DCC6 /* UTGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTGAppDelegate.m; sourceTree = "<group>"; };
+		1D6C09D7197A26600076DCC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D6C09D9197A26600076DCC6 /* UTGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UTGViewController.h; sourceTree = "<group>"; };
+		1D6C09DA197A26600076DCC6 /* UTGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTGViewController.m; sourceTree = "<group>"; };
+		1D6C09DC197A26600076DCC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1D6C09E2197A26600076DCC6 /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6C09E3197A26600076DCC6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D6C09EB197A26600076DCC6 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
+		1D6C09ED197A26600076DCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D6C09EF197A26600076DCC6 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6C09BE197A26600076DCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09C7197A26600076DCC6 /* CoreGraphics.framework in Frameworks */,
+				1D6C09C9197A26600076DCC6 /* UIKit.framework in Frameworks */,
+				1D6C09C5197A26600076DCC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6C09DF197A26600076DCC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09E4197A26600076DCC6 /* XCTest.framework in Frameworks */,
+				1D6C09E6197A26600076DCC6 /* UIKit.framework in Frameworks */,
+				1D6C09E5197A26600076DCC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D6C09B8197A26600076DCC6 = {
+			isa = PBXGroup;
+			children = (
+				1D6C09CA197A26600076DCC6 /* Man's Best Friend */,
+				1D6C09E9197A26600076DCC6 /* Man's Best FriendTests */,
+				1D6C09C3197A26600076DCC6 /* Frameworks */,
+				1D6C09C2197A26600076DCC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6C09C2197A26600076DCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09C1197A26600076DCC6 /* Man's Best Friend.app */,
+				1D6C09E2197A26600076DCC6 /* Man's Best FriendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6C09C3197A26600076DCC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09C4197A26600076DCC6 /* Foundation.framework */,
+				1D6C09C6197A26600076DCC6 /* CoreGraphics.framework */,
+				1D6C09C8197A26600076DCC6 /* UIKit.framework */,
+				1D6C09E3197A26600076DCC6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D6C09CA197A26600076DCC6 /* Man's Best Friend */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09D3197A26600076DCC6 /* UTGAppDelegate.h */,
+				1D6C09D4197A26600076DCC6 /* UTGAppDelegate.m */,
+				1D6C09D6197A26600076DCC6 /* Main.storyboard */,
+				1D6C09D9197A26600076DCC6 /* UTGViewController.h */,
+				1D6C09DA197A26600076DCC6 /* UTGViewController.m */,
+				1D6C09DC197A26600076DCC6 /* Images.xcassets */,
+				1D6C09CB197A26600076DCC6 /* Supporting Files */,
+			);
+			path = "Man's Best Friend";
+			sourceTree = "<group>";
+		};
+		1D6C09CB197A26600076DCC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09CC197A26600076DCC6 /* Man's Best Friend-Info.plist */,
+				1D6C09CD197A26600076DCC6 /* InfoPlist.strings */,
+				1D6C09D0197A26600076DCC6 /* main.m */,
+				1D6C09D2197A26600076DCC6 /* Man's Best Friend-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6C09E9197A26600076DCC6 /* Man's Best FriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09EF197A26600076DCC6 /* Man_s_Best_FriendTests.m */,
+				1D6C09EA197A26600076DCC6 /* Supporting Files */,
+			);
+			path = "Man's Best FriendTests";
+			sourceTree = "<group>";
+		};
+		1D6C09EA197A26600076DCC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D6C09EB197A26600076DCC6 /* Man's Best FriendTests-Info.plist */,
+				1D6C09EC197A26600076DCC6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6C09C0197A26600076DCC6 /* Man's Best Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6C09F3197A26600076DCC6 /* Build configuration list for PBXNativeTarget "Man's Best Friend" */;
+			buildPhases = (
+				1D6C09BD197A26600076DCC6 /* Sources */,
+				1D6C09BE197A26600076DCC6 /* Frameworks */,
+				1D6C09BF197A26600076DCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Man's Best Friend";
+			productName = "Man's Best Friend";
+			productReference = 1D6C09C1197A26600076DCC6 /* Man's Best Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6C09E1197A26600076DCC6 /* Man's Best FriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6C09F6197A26600076DCC6 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */;
+			buildPhases = (
+				1D6C09DE197A26600076DCC6 /* Sources */,
+				1D6C09DF197A26600076DCC6 /* Frameworks */,
+				1D6C09E0197A26600076DCC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6C09E8197A26600076DCC6 /* PBXTargetDependency */,
+			);
+			name = "Man's Best FriendTests";
+			productName = "Man's Best FriendTests";
+			productReference = 1D6C09E2197A26600076DCC6 /* Man's Best FriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6C09B9197A26600076DCC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UTG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = UtkarshGarg;
+				TargetAttributes = {
+					1D6C09E1197A26600076DCC6 = {
+						TestTargetID = 1D6C09C0197A26600076DCC6;
+					};
+				};
+			};
+			buildConfigurationList = 1D6C09BC197A26600076DCC6 /* Build configuration list for PBXProject "Man's Best Friend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6C09B8197A26600076DCC6;
+			productRefGroup = 1D6C09C2197A26600076DCC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6C09C0197A26600076DCC6 /* Man's Best Friend */,
+				1D6C09E1197A26600076DCC6 /* Man's Best FriendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6C09BF197A26600076DCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09DD197A26600076DCC6 /* Images.xcassets in Resources */,
+				1D6C09CF197A26600076DCC6 /* InfoPlist.strings in Resources */,
+				1D6C09D8197A26600076DCC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6C09E0197A26600076DCC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09EE197A26600076DCC6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6C09BD197A26600076DCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09DB197A26600076DCC6 /* UTGViewController.m in Sources */,
+				1D6C09D1197A26600076DCC6 /* main.m in Sources */,
+				1D6C09D5197A26600076DCC6 /* UTGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6C09DE197A26600076DCC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6C09F0197A26600076DCC6 /* Man_s_Best_FriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6C09E8197A26600076DCC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6C09C0197A26600076DCC6 /* Man's Best Friend */;
+			targetProxy = 1D6C09E7197A26600076DCC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6C09CD197A26600076DCC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6C09CE197A26600076DCC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D6C09D6197A26600076DCC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6C09D7197A26600076DCC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D6C09EC197A26600076DCC6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6C09ED197A26600076DCC6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6C09F1197A26600076DCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D6C09F2197A26600076DCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6C09F4197A26600076DCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1D6C09F5197A26600076DCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best Friend/Man's Best Friend-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1D6C09F7197A26600076DCC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Man's Best FriendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D6C09F8197A26600076DCC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Man's Best Friend/Man's Best Friend-Prefix.pch";
+				INFOPLIST_FILE = "Man's Best FriendTests/Man's Best FriendTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6C09BC197A26600076DCC6 /* Build configuration list for PBXProject "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6C09F1197A26600076DCC6 /* Debug */,
+				1D6C09F2197A26600076DCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6C09F3197A26600076DCC6 /* Build configuration list for PBXNativeTarget "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6C09F4197A26600076DCC6 /* Debug */,
+				1D6C09F5197A26600076DCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1D6C09F6197A26600076DCC6 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6C09F7197A26600076DCC6 /* Debug */,
+				1D6C09F8197A26600076DCC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6C09B9197A26600076DCC6 /* Project object */;
+}
