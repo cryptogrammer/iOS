@@ -21,6 +21,13 @@
 		1D6C09E6197A26600076DCC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6C09C8197A26600076DCC6 /* UIKit.framework */; };
 		1D6C09EE197A26600076DCC6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D6C09EC197A26600076DCC6 /* InfoPlist.strings */; };
 		1D6C09F0197A26600076DCC6 /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09EF197A26600076DCC6 /* Man_s_Best_FriendTests.m */; };
+		1D6C09FB197A30B10076DCC6 /* UTGDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6C09FA197A30B10076DCC6 /* UTGDog.m */; };
+		1D94079E197B502800216597 /* UTGPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D94079D197B502800216597 /* UTGPuppy.m */; };
+		1DC1BD72197B134E00B17950 /* St.Bernard.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1BD71197B134E00B17950 /* St.Bernard.JPG */; };
+		1DC1BD77197B156400B17950 /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1BD73197B156400B17950 /* Bo.jpg */; };
+		1DC1BD78197B156400B17950 /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1BD74197B156400B17950 /* BorderCollie.jpg */; };
+		1DC1BD79197B156400B17950 /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1BD75197B156400B17950 /* ItalianGreyhound.jpg */; };
+		1DC1BD7A197B156400B17950 /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1DC1BD76197B156400B17950 /* JRT.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		1D6C09EB197A26600076DCC6 /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		1D6C09ED197A26600076DCC6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D6C09EF197A26600076DCC6 /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		1D6C09F9197A30B10076DCC6 /* UTGDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UTGDog.h; path = ../UTGDog.h; sourceTree = "<group>"; };
+		1D6C09FA197A30B10076DCC6 /* UTGDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UTGDog.m; path = ../UTGDog.m; sourceTree = "<group>"; };
+		1D94079C197B502800216597 /* UTGPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UTGPuppy.h; sourceTree = "<group>"; };
+		1D94079D197B502800216597 /* UTGPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UTGPuppy.m; sourceTree = "<group>"; };
+		1DC1BD71197B134E00B17950 /* St.Bernard.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = St.Bernard.JPG; sourceTree = "<group>"; };
+		1DC1BD73197B156400B17950 /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		1DC1BD74197B156400B17950 /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		1DC1BD75197B156400B17950 /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		1DC1BD76197B156400B17950 /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,10 @@
 				1D6C09D6197A26600076DCC6 /* Main.storyboard */,
 				1D6C09D9197A26600076DCC6 /* UTGViewController.h */,
 				1D6C09DA197A26600076DCC6 /* UTGViewController.m */,
+				1D6C09F9197A30B10076DCC6 /* UTGDog.h */,
+				1D6C09FA197A30B10076DCC6 /* UTGDog.m */,
+				1D94079C197B502800216597 /* UTGPuppy.h */,
+				1D94079D197B502800216597 /* UTGPuppy.m */,
 				1D6C09DC197A26600076DCC6 /* Images.xcassets */,
 				1D6C09CB197A26600076DCC6 /* Supporting Files */,
 			);
@@ -126,6 +146,11 @@
 		1D6C09CB197A26600076DCC6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DC1BD73197B156400B17950 /* Bo.jpg */,
+				1DC1BD74197B156400B17950 /* BorderCollie.jpg */,
+				1DC1BD75197B156400B17950 /* ItalianGreyhound.jpg */,
+				1DC1BD76197B156400B17950 /* JRT.jpg */,
+				1DC1BD71197B134E00B17950 /* St.Bernard.JPG */,
 				1D6C09CC197A26600076DCC6 /* Man's Best Friend-Info.plist */,
 				1D6C09CD197A26600076DCC6 /* InfoPlist.strings */,
 				1D6C09D0197A26600076DCC6 /* main.m */,
@@ -229,9 +254,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DC1BD77197B156400B17950 /* Bo.jpg in Resources */,
+				1DC1BD72197B134E00B17950 /* St.Bernard.JPG in Resources */,
 				1D6C09DD197A26600076DCC6 /* Images.xcassets in Resources */,
 				1D6C09CF197A26600076DCC6 /* InfoPlist.strings in Resources */,
 				1D6C09D8197A26600076DCC6 /* Main.storyboard in Resources */,
+				1DC1BD78197B156400B17950 /* BorderCollie.jpg in Resources */,
+				1DC1BD7A197B156400B17950 /* JRT.jpg in Resources */,
+				1DC1BD79197B156400B17950 /* ItalianGreyhound.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D6C09DB197A26600076DCC6 /* UTGViewController.m in Sources */,
+				1D6C09FB197A30B10076DCC6 /* UTGDog.m in Sources */,
+				1D94079E197B502800216597 /* UTGPuppy.m in Sources */,
 				1D6C09D1197A26600076DCC6 /* main.m in Sources */,
 				1D6C09D5197A26600076DCC6 /* UTGAppDelegate.m in Sources */,
 			);
@@ -457,6 +489,7 @@
 				1D6C09F5197A26600076DCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D6C09F6197A26600076DCC6 /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +498,7 @@
 				1D6C09F8197A26600076DCC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
